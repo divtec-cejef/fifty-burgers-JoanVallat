@@ -1,6 +1,6 @@
 
 body {
-    font-family: Verdana,sans-serif;
+    font-family: Verdana, sans-serif;
     font-size: 120%;
     line-height: 1.4;
     color: black;
@@ -24,14 +24,14 @@ a {
 }
 
 h1 {
-    font-family:Georgia,sans-serif;
+    font-family: Georgia, sans-serif;
     color: #FDC032;
     font-size: 4rem;
     line-height: 0.9;
 }
 
-h2{
-    font-family:Georgia,sans-serif;
+h2 {
+    font-family: Georgia, sans-serif;
     color: #FDC032;
     font-size: 2rem;
     line-height: 0.9;
@@ -46,6 +46,10 @@ main {
 
 p {
     line-height: 1.5;
+}
+
+span {
+    font-weight: bold;
 }
 
 .intro {
@@ -67,14 +71,25 @@ li {
     padding: 10px 40px;
 }
 
+li:first-child {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+li:last-child {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
 footer {
     background-color: #823922;
     color: white;
     text-align: center;
     padding: 10px;
-    margin:20px auto 40px;
+    margin: 20px auto 40px;
     max-width: 400px;
     min-height: 50px;
-    border-bottom: #E8A062;
-
+    border-bottom: 30px solid #E8A062;
+    border-top: 30px solid #E8A062;
+    border-radius: 30px;
 }
