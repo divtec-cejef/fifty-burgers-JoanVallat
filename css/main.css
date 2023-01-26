@@ -47,3 +47,30 @@ main {
 p {
     line-height: 1.5;
 }
+
+.intro {
+    font-size: 1.3rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    max-width: 90%;
+    padding: 0;
+    margin: 40px auto;
+}
+
+li {
+    background-color: #E8A062;
+    color: white;
+    padding: 10px 40px;
+}
+
+footer {
+    background-color: #823922;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
